@@ -1,0 +1,40 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Output directories (adjust based on your pipelines)
+RNA_output/
+ONT_fastq/
+output/
+logs/
+humann3_output/
+sortmerna_output/
+metaphlan_output/
+
+# Conda environments
+env/
+*.conda
+*.yml
+
+# Python cache
+*.pyc
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large FASTQ files (optional: uncomment if FASTQ files shouldn't be tracked)
+# *.fastq
+# *.fastq.gz
+
+# Large databases (ensure not to push DB files)
+databases/
